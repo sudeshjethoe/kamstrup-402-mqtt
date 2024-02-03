@@ -1,0 +1,10 @@
+[Unit]
+Description=Run kamstrup_meter on specified intervals
+Requires=kamstrup_meter.service
+
+[Timer]
+Unit=kamstrup_meter.service
+OnUnitActiveSec=30m
+
+[Install]
+WantedBy=timers.target

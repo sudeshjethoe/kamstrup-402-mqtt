@@ -2,11 +2,6 @@
 #
 # Created by Matthijs Visser
 
-import datetime
-import time
-import sys
-import signal
-import subprocess
 import logging
 import paho.mqtt.client as paho
 import yaml
